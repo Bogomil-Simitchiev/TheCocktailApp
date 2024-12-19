@@ -1,0 +1,110 @@
+.blockchain-container {
+    background-color: #16af8b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 50px auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.blockchain-container a {
+    display: inline-block;
+    margin: 10px 70px;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.blockchain-container a:hover {
+    background-color: #003f8c;
+    transform: scale(1.05);
+}
+
+.blockchain-container a:active {
+    background-color: #002a6a;
+}
+
+.section-title {
+    color: #2d2d2d;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.cocktail-count-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.count {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.fetch-cocktail-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    width: 200px;
+}
+
+.button {
+    background-color: #16af8b;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+.button:active {
+    background-color: #003f8c;
+}
+
+.cocktail-details {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.cocktail-details p > img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.cocktail-details a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.cocktail-details a:hover {
+    text-decoration: underline;
+}

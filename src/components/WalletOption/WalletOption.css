@@ -1,0 +1,47 @@
+.wallet-options {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 550px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.wallet-options h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.wallet-buttons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wallet-button {
+    background-color: #16af8b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+}
+
+.wallet-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.wallet-button:active {
+    background-color: #003f8c;
+}
